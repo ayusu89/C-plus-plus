@@ -19,7 +19,7 @@ public:
         if (imag >= 0)
             cout <<  " + " << imag << "i";
         else
-            cout <<  " - " << -imag << "i";
+            cout <<  " - " << imag << "i";
         cout << endl;
     }
 };
@@ -52,7 +52,7 @@ int main()
     cout << "Second Complex Number: "<<endl;;
     c2.display();
 
-    cout << "Sum of Complex Numbers: ";
+    cout << "Sum of Complex Numbers : ";
     c3.display();
 
     return 0;
