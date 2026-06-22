@@ -14,7 +14,7 @@ struct student
 };
 int main()
 {
-    student s;
+    student s; 
     // Get input from the user
     cout<<"Enter the name of the student :"<<endl;
     cin>>s.name;
