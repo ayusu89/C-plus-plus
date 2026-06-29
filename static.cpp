@@ -9,7 +9,7 @@ public:
     static int x;  // static data member
     A() 
     {
-        cout << "A's constructor called" << endl;
+        cout << "A constructor called" << endl;
     }
 };
 
