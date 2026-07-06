@@ -45,8 +45,8 @@ public:
     void showData()
     {
         Animal::showData();
-        cout << "Region              : " << region << endl;
-        cout << "Diet                : " << diet << endl;
+        cout << "Region : " << region << endl;
+        cout << "Diet   : " << diet << endl;
         cout << "Conservation Status : " << conservation_status << endl;
     }
 };
