@@ -23,6 +23,7 @@ int main()
 {
     Num obj;
     obj.input(10);
+    cout<<"Before Increment :"<<endl;
     obj.display();
     ++obj;
     cout<<"After preincrement : "<<endl;
