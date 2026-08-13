@@ -24,7 +24,7 @@ public:
 Num operator++(Num &obj)
 {
 
-    obj.n = ++obj.n;
+     ++obj.n;
     return obj;
 
 
