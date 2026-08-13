@@ -19,7 +19,7 @@ class complex
      {
         cout<<real<<"+i"<<imag<<endl;
      }
-     complex operator +( complex &c2)
+     complex operator +( complex c2)
      {
         complex temp;
         temp.real =  real + c2.real;
@@ -38,8 +38,11 @@ int main ()
     cout<<"c2 = ";
     c2.display();
     complex c3 ;
-    c3 = c1 + c2 ; // calls operator overloading 
+
+    c3 = c1 + c2 ; // calls operator overloading
+
     cout<<"c3 = ";
+
     c3.display();
     return 0;
 }
